@@ -1,6 +1,9 @@
 # Blood Donor Finder
 
 A simple web application for registering and searching blood donors.
+<img width="1892" height="921" alt="Screenshot 2026-09-29 212623" src="https://github.com/user-attachments/assets/af1e8ea0-60dd-4bf1-919a-1ca5b26a4556" />
+<img width="1890" height="843" alt="Screenshot 2026-09-29 212548" src="https://github.com/user-attachments/assets/96742e26-b2d4-470e-987b-9ea0fee86c7d" />
+<img width="1897" height="960" alt="Screenshot 2026-09-29 212535" src="https://github.com/user-attachments/assets/7a1c89d0-e483-47d0-955b-b7e38480bea8" />
 
 ## About the Project
 
