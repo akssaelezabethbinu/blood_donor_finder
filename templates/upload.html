@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Upload Donor Excel</title>
+</head>
+<body>
+
+<h1>📂 Upload Donor Excel File</h1>
+
+<form action="/upload" method="POST" enctype="multipart/form-data">
+
+    <label>Select Excel File:</label><br><br>
+
+    <input type="file" name="file" accept=".xlsx" required>
+
+    <br><br>
+
+    <button type="submit">Upload</button>
+
+</form>
+
+<br>
+
+<a href="/">
+    <button>Back to Home</button>
+</a>
+
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Blood Compatibility Checker</title>
+</head>
+<body>
+
+<h1>Blood Compatibility Checker</h1>
+
+<form method="POST">
+
+<select name="blood_group">
+
+<option>A+</option>
+<option>A-</option>
+<option>B+</option>
+<option>B-</option>
+<option>AB+</option>
+<option>AB-</option>
+<option>O+</option>
+<option>O-</option>
+
+</select>
+
+<br><br>
+
+<button type="submit">
+Check Compatibility
+</button>
+
+</form>
+
+{% if compatible %}
+
+<h2>Compatible Blood Groups</h2>
+
+<ul>
+
+{% for blood in compatible %}
+
+<li>{{ blood }}</li>
+
+{% endfor %}
+
+</ul>
+
+{% endif %}
+
+</body>
+</html>
